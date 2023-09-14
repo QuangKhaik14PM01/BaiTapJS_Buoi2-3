@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 4</title>
+</head>
+<body>
+
+    <h1>Tính Chu Vi và Diện Tích Hình Chữ Nhật</h1>
+    <form id="rectangleForm">
+        <label for="length">Chiều dài (cm):</label>
+        <input type="number" id="length" name="length" step="0.01">
+        <br>
+        <label for="width">Chiều rộng (cm):</label>
+        <input type="number" id="width" name="width" step="0.01">
+        <br>
+        <button type="button" onclick="calculateRectangle()">Tính</button>
+    </form>
+    <p>Chu vi hình chữ nhật: <span id="perimeter"></span> cm</p>
+    <p>Diện tích hình chữ nhật: <span id="area"></span> cm<sup>2</sup></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
